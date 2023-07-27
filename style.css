@@ -1,0 +1,48 @@
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;  
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+    z-index: 999;
+ }
+#logo{
+    width: 30%;
+}
+h1{
+    font-family: monospace;
+    color: black;
+}
+.heading{
+    font-family: monospace;
+
+}
+.navbar-nav{
+    text-align: end !important;
+}
+body{
+    background-color: black;
+    color: green;
+    font-family: monospace;
+}
+.text-center > ul{
+display: inline-block !important;
+}
+ul{
+    text-align: start;
+}
+.video-wrapper{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+.video-wrapper iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
